@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name" : "Obtiene Usuarios",
+    "version": "1.0",
+    "description" : "Obtiene usuarios de un endpoint y los muestra en la extension",
+    "icons":{
+        "128": "128.png"
+    },
+    "action":{
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://jsonplaceholder.typicode.com/*"
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
